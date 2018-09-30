@@ -1,12 +1,14 @@
 \documentclass[letterpaper]{deedy-resume} % Use US Letter paper, change to a4paper for A4 
 
+\renewcommand{\baselinestretch}{1.14}
+
 \begin{document}
 
 %----------------------------------------------------------------------------------------
 % TITLE SECTION
 %----------------------------------------------------------------------------------------
 
-\lastupdated
+% \lastupdated
 
 \namesection{}{Risyanggi Azmi Faizin}{ % Your name
 % \urlstyle{same}\url{http://linkedin.com/in/rafgugi} \\ % Your website, LinkedIn profile or other web address
@@ -69,8 +71,7 @@ Operational Research \\
 {\footnotesize \textit{\textbf{(Teaching Assistance) }}} \\
 Computer Network \\
 Operating System \\
-Data Structure \\
-Digital System
+Data Structure
 \sectionspace
 
 %------------------------------------------------
@@ -101,13 +102,14 @@ Android \textbullet{} Regex \textbullet{} Shell \textbullet{} Network
 
 \section{Projects as Freelancer}
 
-\runsubsection{ITS Training Center}
-\descript{| Programmer}
-\location{Jul 2017 – Feb 2018, Surabaya}
+\runsubsection{E-Procurement Semen Indonesia}
+\descript{| Lead Programmer}
+\location{Sep 2015 – Jun 2016, Gresik}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightitemize}
-\item Create CSS based on layout created by professional UI designer.
-\item Using MySQL and PHP Laravel as backend.
+\item This is my very complex system I have done, integrating 3 companies which are Semen Padang, Semen Tonasa, and Semen Indonesia itself.
+\item Do procurement and real-time auction, between companies and vendors.
+\item I redisegned the database from the previous system to suit the new requirements. Using OracleDB, PHP Codeigniter, Bootstrap, JQuery. Integrated with internal company SAP.
 \end{tightitemize}
 \sectionspace
 
@@ -115,19 +117,20 @@ Android \textbullet{} Regex \textbullet{} Shell \textbullet{} Network
 \descript{| Programmer}
 \location{Dec 2016 – Jul 2017, Padang}
 \begin{tightitemize}
+\item This hospital previosly did all hospital procedures manually, with books.
 \item This web application is actively used with rate of patiens around 100 per day.
 \item Using MySQL database, PHP Laravel as backend, and Bootstrap as frontend.
 \item I handled the database and the data flows.
-\item All code was reviewed, perfected, and pushed to production.
 \end{tightitemize}
 \sectionspace
 
-\runsubsection{Guitar Chord Variation Finder}
-\descript{| Creator}
-\location{Jan 2017, Surabaya}
+\runsubsection{ITS Training Center}
+\descript{| Programmer}
+\location{Jul 2017 – Feb 2018, Surabaya}
 \begin{tightitemize}
-\item I created this app using my knowloedge of music theory because of my interest in playing guitar and I found it hard to find variation of guitar chord.
-\item Using Coffeescript and ReactJS.
+\item Organize training and certification in ITS.
+\item Create CSS based on layout created by professional UI designer.
+\item Using MySQL and PHP Laravel as backend.
 \end{tightitemize}
 \sectionspace
 
@@ -141,23 +144,22 @@ Android \textbullet{} Regex \textbullet{} Shell \textbullet{} Network
 \end{tightitemize}
 \sectionspace
 
-\runsubsection{E-Procurement Semen Indonesia}
-\descript{| Lead Programmer}
-\location{Sep 2015 – Jun 2016, Gresik}
-\begin{tightitemize}
-\item This is my very complex system I have done, integrating 3 companies which are Semen Padang, Semen Tonasa, and Semen Indonesia itself.
-\item Do procurement and real-time auction, between company and vendors.
-\item I redisegned the database from the previous system to suit the new requirements. Using OracleDB, PHP Codeigniter, Bootstrap, JQuery. Integrated with internal company SAP.
-\end{tightitemize}
-\sectionspace
-
 \runsubsection{Internship Monitoring}
 \descript{| Solo Programmer}
 \location{Jul 2015 – Sep 2015, Surabaya}
 \begin{tightitemize}
-\item This app is only used by my campus to monitor and evaluate student internships.
+\item This app is only used by my local campus to monitor and evaluate student internships.
 \item Using MySQL, PHP Laravel, Bootstrap, JQuery.
 \item The application is running and maintained by campus.
+\end{tightitemize}
+\sectionspace
+
+\runsubsection{Guitar Chord Variation Finder}
+\descript{| Creator}
+\location{Jan 2017, Surabaya}
+\begin{tightitemize}
+\item I created this app using my knowloedge of music theory because of my interest in playing guitar and I found it hard to find variation of guitar chord.
+\item Using Coffeescript and ReactJS.
 \end{tightitemize}
 \sectionspace
 
@@ -196,8 +198,6 @@ Android \textbullet{} Regex \textbullet{} Shell \textbullet{} Network
   One gold medal and one silver medal at ITB XXIV Choir Festival \\
 \location{Feb 2014, Surabaya, Indonesia}
   2nd winner of Universitas Airlangga Choir Competition \\
-\location{Jun 2014, Jember, Indonesia}
-  2nd winner of the Jember University Rector Cup Choir Festival \\
 \location{Sep 2013, Jakarta, Indonesia}
   Finalist (Top 20) Competitive Programming of Compfest, Universitas Indonesia \\
 \sectionspace
@@ -208,15 +208,24 @@ Android \textbullet{} Regex \textbullet{} Shell \textbullet{} Network
 
 \section{References}
 % \begin{tabular}{lll}
+% \location{Handi Adiputra}
+%   Senior Analyst in Accenture, Indonesia\\
+%   +62 878-8152-1337\\
+\location{Arianto Wibowo}
+  Software Engineer in Shopee, Singapore\\
+  +65 8590-2048\\
+\location{Julio Antonius Leonard}
+  Product Engineer in Go-Jek, India\\
+  \href{mailto:julio.leonard@go-jek.com}{julio.leonard@go-jek.com}\\
 \location{Hafiz Nuzal Djufri}
   Programmer Associate in Accenture, Indonesia\\
   +62 811-6658-910\\
 \location{Eric Ivander Jeadi}
   Software Engineer in BukaLapak, Indonesia\\
   +62 896-7911-1735\\
-\location{Arianto Wibowo}
-  Software Engineer in Shopee, Singapore\\
-  +65 8590-2048\\
+\location{M Hilmy Fawwazy}
+  UI Designer in Traveloka, Indonesia\\
+  +62 853-3522-5791\\
 % \end{tabular}
 
 \end{minipage} % The end of the left column
@@ -231,13 +240,11 @@ Android \textbullet{} Regex \textbullet{} Shell \textbullet{} Network
 
 \subsection{Computer Engineering Student Association}
 \location{Jul 2014 – May 2015}
-  Steering Committee at Student resource department HMTC \\
-\location{Feb 2014 – Dec 2014}
-  Staff at National Programming Contest, Schematics 2014 \\
-\location{Feb 2013 – Dec 2013}
-  Staff at National Programming Contest, Schematics 2013 \\
+  Steering Committee at student resource department HMTC \\
 \location{Sep 2013 – Mar 2014}
-  Organizing Committee at Student resource department HMTC \\
+  Organizing Committee at student resource department HMTC \\
+\location{Feb 2013 – Dec 2014}
+  Staff at National Programming Contest, Schematics \\
 \location{Aug 2013 – Jul 2014}
   Staff at Entrepreneurship HMTC \\
 \sectionspace
@@ -245,9 +252,7 @@ Android \textbullet{} Regex \textbullet{} Shell \textbullet{} Network
 \subsection{ITS Student Choir}
 \location{Aug 2014 – Aug 2015}
   Staff at Music Development Division \\
-\location{Aug 2012 – Aug 2013}
-  Staff at Music Development Division \\
-\location{Jan 2012 – May 2012}
+\location{Jan 2012 – Aug 2013}
   Training coordinator at "A Night to Remember" concert \\
 \sectionspace
 
