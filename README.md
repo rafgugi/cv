@@ -1,1 +1,3 @@
 # cv
+
+Compile with XeLatex
